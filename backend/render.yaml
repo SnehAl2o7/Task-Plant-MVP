@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: taskplanet-backend
+    runtime: node
+    region: oregon          # free tier region
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false         # set manually in Render dashboard
+      - key: JWT_SECRET
+        sync: false         # set manually in Render dashboard
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: CLIENT_URL
+        sync: false         # your Vercel frontend URL e.g. https://task-plant-mvp.vercel.app
