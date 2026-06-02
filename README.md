@@ -3,9 +3,8 @@
 A full-stack social media feature where users can **create accounts, post text or images, like, and comment** on a public feed. Built as an internship project using React, Node.js, MongoDB, and Cloudinary.
 
 **Live Demo:**
-- 🌐 Frontend: `https://your-app-name.vercel.app` *(update after deploying)*
-- 🔗 Backend API: `https://taskplanet-backend.onrender.com` *(update after deploying)*
-
+- 🌐 **Frontend (Live Demo):** ([https://task-plant-4b954lczq-snehalsingh353-8471s-projects.vercel.app/](task-plant-4b954lczq-snehalsingh353-8471s-projects.vercel.app))
+- 🔗 **Backend API URL:** ([https://task-plant-mvp.onrender.com](https://task-plant-mvp.onrender.com))
 ---
 
 ## 📁 Project Structure
